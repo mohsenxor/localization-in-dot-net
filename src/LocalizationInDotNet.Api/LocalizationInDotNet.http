@@ -1,0 +1,13 @@
+@LocalizationInDotNet_HostAddress = http://localhost:5015
+
+GET {{LocalizationInDotNet_HostAddress}}/weatherforecast?culture=en
+Accept: application/json
+###
+GET {{LocalizationInDotNet_HostAddress}}/weatherforecast?culture=fa
+Accept: application/json
+###
+GET {{LocalizationInDotNet_HostAddress}}/weatherforecast?culture=de
+Accept: application/json
+###
+GET {{LocalizationInDotNet_HostAddress}}/weatherforecast?culture=fr
+Accept: application/json
